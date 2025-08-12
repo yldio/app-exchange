@@ -3,10 +3,11 @@ from ledger_app_clients.exchange.cal_helper import CurrencyConfiguration
 from .sui_utils import SUI_CONF, SUI_PACKED_DERIVATION_PATH, SUI_USDC_CONF
 
 # Eth family
-from .ethereum import CELO_CONF, CELO_PACKED_DERIVATION_PATH, ETH_PACKED_DERIVATION_PATH, ETH_CONF
+from .ethereum import ETH_PACKED_DERIVATION_PATH, ETH_CONF
 from .ethereum import ETC_PACKED_DERIVATION_PATH, ETC_CONF
 from .ethereum import BSC_PACKED_DERIVATION_PATH, BSC_CONF, BSC_CONF_LEGACY
 from .ethereum import DAI_PACKED_DERIVATION_PATH, DAI_CONF
+from .celo import CELO_CONF, CELO_PACKED_DERIVATION_PATH
 
 from .litecoin import LTC_PACKED_DERIVATION_PATH, LTC_CONF
 from .bitcoin import BTC_PACKED_DERIVATION_PATH, BTC_CONF
