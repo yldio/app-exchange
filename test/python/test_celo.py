@@ -11,7 +11,7 @@ from .apps import cal as cal
 class CeloTests(ExchangeTestRunner):
     valid_destination_1 = "0x79D5A290D7ba4b99322d91b577589e8d0BF87072"
     valid_destination_2 = "0x0a101aA5347Bb16F43019BE42ce5830395739e33"
-    valid_refund = "0x28c297F4193C0705E7582809c47DEad1DF7EbF11"
+    valid_refund = "0xa8FFD3d51259D17d826a0f26197657B428707c30"
     valid_send_amount_1 = 10000000
     valid_send_amount_2 = 446739662
     valid_fees_1 = 101
