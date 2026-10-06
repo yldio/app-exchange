@@ -1,0 +1,2395 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentation for Ledger Swap">
+      
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../../img/Ledger-logo-696.webp">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Changelog - Ledger Swap documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#changelog" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../.." title="Ledger Swap documentation" class="md-header__button md-logo" aria-label="Ledger Swap documentation" data-md-component="logo">
+      
+  <img src="../../../../img/Ledger-logo-696.webp" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Ledger Swap documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Changelog
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../.." title="Ledger Swap documentation" class="md-nav__button md-logo" aria-label="Ledger Swap documentation" data-md-component="logo">
+      
+  <img src="../../../../img/Ledger-logo-696.webp" alt="logo">
+
+    </a>
+    Ledger Swap documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../walkthrough/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Enabling the SWAP on your application
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Enabling the SWAP on your application
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../walkthrough/prerequisite/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prerequisite
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../walkthrough/run_first_test/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Running an existing SWAP test
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../walkthrough/enable_the_swap_compilation/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    First compilation with the standard SWAP
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    First compilation with the standard SWAP
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../walkthrough/enable_the_swap_compilation/c/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    For C applications
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../walkthrough/enable_the_swap_compilation/rust/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    For Rust applications
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../walkthrough/enable_standard_app/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Creating a basic SWAP test for you coin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../walkthrough/code_the_handlers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Code the handlers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../technical_information/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Technical Information
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Technical Information
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../technical_information/diagram/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sequence diagram
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../technical_information/protocol/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Exchange Protocol API
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../technical_information/protobuf/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Transaction proposal (protobuf)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../technical_information/fund_and_sell/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FUND and SELL flows
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../technical_information/cal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Crypto Asset List (CAL)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../technical_information/bss/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    BSS safety in coin applications
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_8" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../technical_information/coin_application_api/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Coin Application API
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3_8" id="__nav_3_8_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Coin Application API
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../technical_information/coin_application_api/entry_point/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Coin application entry point
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../technical_information/coin_application_api/swap_handle_check_address/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CHECK_ADDRESS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../technical_information/coin_application_api/swap_handle_get_printable_amount/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GET_PRINTABLE_AMOUNT
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_8_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../technical_information/coin_application_api/sign_transaction/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SIGN_TRANSACTION
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3_8_5" id="__nav_3_8_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_8_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_8_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    SIGN_TRANSACTION
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../technical_information/coin_application_api/sign_transaction/swap_copy_transaction_parameters/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Copy Transaction Parameters
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../technical_information/coin_application_api/sign_transaction/ui_bypass/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UI bypass
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../technical_information/coin_application_api/sign_transaction/error_codes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Error codes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../technical_information/dale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The DALE tool
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1410-2026-10-06" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [1.41.0] - 2026-10-06
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.41.0] - 2026-10-06">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Added
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fixed
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1400-2026-10-05" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [1.40.0] - 2026-10-05
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.40.0] - 2026-10-05">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Added
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Changed
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fixed
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1390-2026-10-05" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [1.39.0] - 2026-10-05
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.39.0] - 2026-10-05">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#changed_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Changed
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fixed
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1380-2026-09-29" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [1.38.0] - 2026-09-29
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.38.0] - 2026-09-29">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#changed_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Changed
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fixed
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1371-2026-09-29" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [1.37.1] - 2026-09-29
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.37.1] - 2026-09-29">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fixed_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fixed
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1370-2026-08-24" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [1.37.0] - 2026-08-24
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.37.0] - 2026-08-24">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Added
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fixed
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deprecated" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deprecated
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1362-2026-08-18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [1.36.2] - 2026-08-18
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.36.2] - 2026-08-18">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#changed_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Changed
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1361-2026-07-02" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [1.36.1] - 2026-07-02
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.36.1] - 2026-07-02">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#changed_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Changed
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1360-2026-07-02" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [1.36.0] - 2026-07-02
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.36.0] - 2026-07-02">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Added
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1353-2026-06-11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [1.35.3] - 2026-06-11
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.35.3] - 2026-06-11">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#changed_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Changed
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1352-2026-06-04" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [1.35.2] - 2026-06-04
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.35.2] - 2026-06-04">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#changed_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Changed
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1351-2026-04-30" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [1.35.1] - 2026-04-30
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.35.1] - 2026-04-30">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#changed_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Changed
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1350-2026-04-24" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [1.35.0] - 2026-04-24
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.35.0] - 2026-04-24">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#changed_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Changed
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1340-2026-03-11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [1.34.0] - 2026-03-11
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.34.0] - 2026-03-11">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#changed_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Changed
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1331-2026-03-03" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [1.33.1] - 2026-03-03
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.33.1] - 2026-03-03">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#changed_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Changed
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1330-2026-02-24" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [1.33.0] - 2026-02-24
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.33.0] - 2026-02-24">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#changed_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Changed
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1321-2026-02-19" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [1.32.1] - 2026-02-19
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.32.1] - 2026-02-19">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#changed_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Changed
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1320-2026-02-04" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [1.32.0] - 2026-02-04
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.32.0] - 2026-02-04">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Added
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changed_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Changed
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1310-2026-01-15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [1.31.0] - 2026-01-15
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.31.0] - 2026-01-15">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#changed_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Changed
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1300-2026-01-05" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [1.30.0] - 2026-01-05
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.30.0] - 2026-01-05">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#changed_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Changed
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1291-2025-11-28" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [1.29.1] - 2025-11-28
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.29.1] - 2025-11-28">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#changed_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Changed
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1290-2025-11-19" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [1.29.0] - 2025-11-19
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.29.0] - 2025-11-19">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#changed_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Changed
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1280-2025-11-04" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [1.28.0] - 2025-11-04
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.28.0] - 2025-11-04">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#changed_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Changed
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="changelog">Changelog</h1>
+<p>All notable changes to this project will be documented in this file.</p>
+<p>The format is based on <a href="https://keepachangelog.com/en/1.0.0/">Keep a Changelog</a>,
+and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semantic Versioning</a>.</p>
+<h2 id="1410-2026-10-06">[1.41.0] - 2026-10-06</h2>
+<h3 id="added">Added</h3>
+<ul>
+<li><code>nvm</code>: <code>AtomicStorage::get_or_init</code> returns the stored value, first storing
+  the given one if the storage was never updated (both validity flags clear, as
+  in the zeroed <code>.nvm_data</code> Speculos loads), where <code>get_ref</code> panics.</li>
+<li><code>nvm</code>: <code>AtomicStorage::&lt;[u8; N]&gt;::settle</code> makes the storage that is not
+  current hold the current bytes, writing only when the two differ, so the value
+  the last update replaced leaves no trace in NVM. An application storing
+  secrets calls it at start to finish an erase a power loss interrupted. Only
+  byte arrays settle: a write cut short is still a valid byte array, and the
+  comparison covers every stored byte.</li>
+<li><code>app_storage</code> feature and module: the C SDK's application storage (a versioned,
+  CRC-checked area at the start of the app data, meant to be kept by the OS across app
+  updates), with its size set by the <code>APP_STORAGE_SIZE</code> environment variable (reported by
+  <code>app_storage::capacity</code>) and its header properties by the <code>app_storage_settings</code> and
+  <code>app_storage_data</code> features. <code>APP_STORAGE_SIZE</code> must not shrink between versions of an
+  app. Difference from the C SDK: <code>read</code> also refuses a range past the capacity.</li>
+</ul>
+<h3 id="fixed">Fixed</h3>
+<ul>
+<li><code>nvm</code>: <code>AtomicStorage::update</code> on a storage that was never updated stores the
+  value instead of panicking with "invalidated atomic storage". An interrupted
+  update of a storage holding a value never clears both flags, so this state
+  means the storage holds no value yet: it was never updated, or its first
+  update was interrupted, and the next update stores the value again.</li>
+<li><code>nvm</code>: a <code>Collection</code> that was never updated is empty, as <code>Collection::new</code>
+  declares it, instead of panicking on its first read or <code>add</code>.</li>
+</ul>
+<h2 id="1400-2026-10-05">[1.40.0] - 2026-10-05</h2>
+<h3 id="added_1">Added</h3>
+<ul>
+<li><code>NbglHomeAndSettings::info_list(&amp;[(&amp;str, &amp;str)])</code> sets an arbitrary number of
+  information fields on the home screen's info page, and
+  <code>NbglHomeAndSettings::app_name(&amp;str)</code> sets the application name on its own.
+  The info list was previously frozen to the two <code>Version</code> / <code>Developer</code> fields.</li>
+<li>Tag/value pairs can carry a value extension (alias), exposing
+  <code>nbgl_contentValueExt_t</code> and <code>nbgl_contentValueAliasType_t</code>. New <code>TagValue</code>
+  type (<code>Field</code> plus an optional extension, with <code>From&lt;&amp;Field&gt;</code>) and
+  <code>FieldExtension</code>, built with one constructor per alias kind —
+  <code>full_value</code>, <code>ens</code>, <code>address_book</code>, <code>qr_code</code>, <code>info_list</code>,
+  <code>tag_value_list</code> — and the chainable <code>alias_sub_name</code>, <code>explanation</code>,
+  <code>title</code>, <code>back_text</code> setters. NBGL draws a <code>&gt;</code> next to an aliased value and
+  opens a modal built from the extension.</li>
+<li>Extension-aware variants of the review entry points, taking <code>&amp;[TagValue]</code>
+  where the existing ones take <code>&amp;[Field]</code>: <code>NbglReview::show_ext</code>,
+  <code>NbglAdvanceReview::show_ext</code>, <code>NbglReviewExtended::show_ext</code>,
+  <code>NbglStreamingReview::next_ext</code>, <code>NbglAddressReview::set_tag_value_list_ext</code>
+  and <code>TagValueList::new_ext</code>.</li>
+<li><code>nbgl_tag_value_alias</code> example, covering all six alias kinds on one review
+  screen.</li>
+<li>Full coverage of <code>nbgl_warning_t</code> through the new <code>NbglWarning</code> builder.
+  <code>predefined(&amp;[WarningType])</code> raises any combination of the six pre-defined
+  warnings (<code>W3cIssue</code>, <code>W3cRiskDetected</code>, <code>W3cThreatDetected</code>, <code>W3cNoThreat</code>,
+  <code>BlindSigning</code>, <code>GatedSigning</code>); the set was previously frozen to
+  <code>W3cRiskDetected</code> alone. The manual path is also exposed: <code>info</code>,
+  <code>intro_details</code>, <code>review_details</code>, <code>intro_top_right_icon</code>,
+  <code>review_top_right_icon</code> and <code>prelude</code>, with the supporting <code>CenterInfo</code>,
+  <code>QrCode</code>, <code>Prelude</code>, <code>WarningBar</code> and <code>WarningDetails</code> types. Bar lists nest
+  to arbitrary depth.</li>
+<li><code>NbglAdvanceReview::warning(&amp;NbglWarning)</code> and
+  <code>NbglStreamingReview::warning(&amp;NbglWarning)</code>.</li>
+<li><code>nbgl_warning</code> example, showing both the pre-defined and the manual paths.</li>
+<li>Per-pair layout control on <code>TagValue</code>: <code>force_page_start</code> starts a new review
+  page at that pair, <code>centered_info</code> draws it as a centered block rather than a
+  tag/value row. <code>TagValue</code> now derives <code>Default</code>, so a literal that sets only
+  some fields needs <code>..Default::default()</code>.
+  <code>nbMaxLinesForValue</code> and <code>hideEndOfLastLine</code> are deliberately not offered:
+  NBGL overwrites both, along with <code>smallCaseForValue</code>, on every page it draws
+  from a tag/value list (<code>nbgl_use_case.c:1144</code>), so an app setting them would
+  see nothing change. Of the list-level struct only <code>wrapping</code> and <code>token</code> are
+  honoured — which is also why the existing <code>small_case_for_value</code> argument has
+  no effect.</li>
+<li>Settings are no longer capped at ten. <code>NbglHomeAndSettings::settings</code> and
+  <code>NbglGenericSettings::settings</code> take an <code>AtomicStorage&lt;[u8; N]&gt;</code> of whatever
+  size the app declares, and the switch descriptors are heap-allocated rather
+  than living in a fixed-size static. The only limit left is the app's own NVM
+  array, one byte per setting, which is what <code>settings</code> now checks against.
+  Existing callers are unaffected: <code>N</code> is inferred, and <code>SETTINGS_SIZE</code> stays
+  exported, now describing the size the examples use rather than a maximum.</li>
+<li><code>TagValue::value_icon</code> draws an icon at the right of a value and makes the row
+  touchable, with <code>NbglReview::on_value_icon</code> and
+  <code>NbglAdvanceReview::on_value_icon</code> receiving the index of the touched pair.
+  The list sets its own token, <code>BACK_TOKEN</code> being 0 and a touch otherwise
+  reading as "navigate back".
+  Two combinations panic rather than let C misread the union <code>value_icon</code> shares
+  with <code>extension</code>: a pair carrying both, and a list mixing icon pairs with
+  extension pairs. The second is list-wide because NBGL forces a page's token to
+  <code>VALUE_ALIAS_TOKEN</code> as soon as one pair on it is an alias, and that handler
+  reads the union as an extension for whichever pair was touched — and NBGL, not
+  the app, decides which pairs share a page.
+  <code>on_value_icon</code> is available on all five use cases that take <code>TagValue</code>s:
+  <code>NbglReview</code>, <code>NbglAdvanceReview</code>, <code>NbglReviewExtended</code>,
+  <code>NbglStreamingReview</code> and <code>NbglAddressReview</code>. Each installs its handler on
+  the way to C, which also clears it when none is set — without that a touch
+  could have reached a handler left behind by an earlier flow.
+  <code>startIndex</code> stays out, being the first index fetched through the
+  pair-retrieval callback, which is not wrapped.</li>
+<li><code>OperationFlag</code>, exposing the flag bits of <code>nbgl_operationType_t</code> alongside
+  the base transaction type: <code>Skippable</code>, <code>Blind</code>, <code>Risky</code>, <code>NoThreat</code> and
+  <code>AddressBook</code>. Only the base type and <code>Skippable</code> were reachable before.
+  <code>NbglAdvanceReview::operation_flags</code> and
+  <code>NbglStreamingReview::operation_flags</code> set them.
+  <code>Blind</code>, <code>Risky</code> and <code>NoThreat</code> are what make NBGL draw the warning button on
+  a review's first and last pages, so a warning configured through
+  <code>warning_details</code> or <code>warning</code> was previously reachable only from the intro
+  page. The button appears on the last page only when that page is a long-press
+  one, which excludes a light review.
+  These three flags are offered only where NBGL has a warning to fill the
+  button with: the handler reads <code>warning-&gt;predefinedSet</code>, and falls back to
+  <code>reviewDetails-&gt;title</code>, neither of them NULL-checked, and only
+  <code>nbgl_useCaseAdvancedReview</code> and <code>nbgl_useCaseAdvancedReviewStreamingStart</code>
+  set that context. Hence no equivalent on <code>NbglReview</code>, and a panic if the
+  warning could not fill the button.</li>
+<li><code>NbglGenericConfiguration</code>, wrapping <code>nbgl_useCaseGenericConfiguration</code> — a
+  configuration screen built from arbitrary <code>NbglPageContent</code>, paginated by
+  NBGL, ended through the header. It is the general form of
+  <code>NbglGenericSettings</code>, which is fixed to one switch list backed by NVM.</li>
+<li><code>NbglGenericConfiguration::on_action</code> and <code>NbglGenericReview::on_action</code>,
+  reporting touches on a switch, choice or bar back to the app through
+  <code>nbgl_content_t.contentActionCallback</code>. That field was previously always NULL,
+  so the interactive content types added earlier in this release were drawn but
+  reported nothing. <code>TagValueConfirm</code>, <code>InfoLongPress</code> and <code>InfoButton</code> keep the
+  SDK's own callback either way, since that is how a review detects approval.</li>
+<li><code>NbglChoice::show_with_details</code> and <code>NbglChoice::show_advanced_with_details</code>,
+  wrapping <code>nbgl_useCaseChoiceWithDetails</code> and
+  <code>nbgl_useCaseAdvancedChoiceWithDetails</code>. Both take a <code>WarningDetails</code>, the
+  same details tree <code>NbglWarning</code> uses, and return the user's choice; the
+  advanced variant adds a header icon and title.</li>
+<li><code>NbglConfirm</code>, wrapping <code>nbgl_useCaseConfirm</code>, previously reachable only
+  indirectly through <code>NbglChoice::ask_confirmation</code>. It is a modal, so it must
+  be raised over a screen that is already drawn, and <code>show_and_return</code> does not
+  block: the C API reports the button being touched and says nothing about
+  dismissal, since dismissing simply reveals what was underneath. The
+  <code>nbgl_home_and_settings</code> example raises one from the home action button.</li>
+<li><code>NbglNavigableContent</code>, wrapping <code>nbgl_useCaseNavigableContent</code> — a flow of
+  pages under a touchable header, for content that is not a review. The module
+  existed but was commented out and unusable: its navigation callback ignored
+  the page index and returned four hard-coded choices through a pointer to a
+  temporary array, using non-NUL-terminated <code>&amp;str</code>s. Pages are now declared up
+  front with <code>add_page</code> / <code>add_titled_page</code>, one <code>NbglPageContent</code> each, and
+  <code>on_control</code> receives control touches. Declaring pages up front is what makes
+  it sound: content built inside the callback would be dropped before NBGL drew
+  it. On Nano the per-page title and top-right icon are ignored, and
+  <code>ExtendedCenter</code> / <code>InfoLongPress</code> pages are rejected by <code>show</code>, that device's
+  page union having eight members against the touchscreen devices' eleven.</li>
+<li>Four more <code>NbglGenericReview</code> content types, taking it from 6 to 10 of the 11
+  members of the C content union: <code>SwitchesList</code> (<code>SWITCHES_LIST</code>),
+  <code>ChoicesList</code> (<code>CHOICES_LIST</code>), <code>BarsList</code> (<code>BARS_LIST</code>) and <code>ExtendedCenter</code>
+  (<code>EXTENDED_CENTER</code>, a centered info block with an inline tip box). They are
+  added through the corresponding new <code>NbglPageContent</code> variants.
+  <code>TAG_VALUE_DETAILS</code> is deliberately not offered: the C dispatch for
+  app-supplied content rejects it (<code>nbgl_use_case.c</code>, <code>default:</code> arm returning
+  false), NBGL only producing it internally when a pair is too long to fit, so
+  a page built from it renders empty.</li>
+<li>Tip box on a review's first page, exposing <code>nbgl_tipBox_t</code> through the new
+  <code>TipBox</code> type: <code>NbglAdvanceReview::tip_box()</code>. Touching it opens a modal
+  listing <code>[type, content]</code> rows; the parameter was previously always NULL.
+  Only <code>INFOS_LIST</code> is offered, the sole member of the C union. It applies only
+  to a review whose warning set raises no tip box of its own: any <code>W3c*</code>
+  warning, or <code>BlindSigning</code>, makes NBGL draw its own tip box and route the
+  touch to the security report instead. That is also why <code>NbglReview</code> has no
+  equivalent — the only use case it wraps that takes a tip box is the
+  blind-signing one, which always raises <code>BlindSigning</code>. The
+  <code>nbgl_advance_review</code> example shows one on a review with no warning.</li>
+<li>Home screen action button, exposing <code>nbgl_homeAction_t</code> through the new
+  <code>HomeAction</code> and <code>HomeActionStyle</code> types, set with
+  <code>NbglHomeAndSettings::action()</code>. The button's function is supplied by the app
+  and NBGL runs it on touch, so it can start any use case; the parameter was
+  previously always NULL. The <code>nbgl_home_and_settings</code> example shows one
+  displaying a status page.</li>
+</ul>
+<h3 id="changed">Changed</h3>
+<ul>
+<li><code>NbglHomeAndSettings::infos(app_name, version, author)</code> is unchanged and now a
+  shortcut over <code>app_name()</code> + <code>info_list()</code>.</li>
+<li><code>NbglHomeAndSettings</code> passes a NULL <code>infosList</code> to the C use case when no
+  information field is set, instead of announcing two fields backed by an empty
+  array.</li>
+<li>The <code>&amp;[Field]</code> review methods are unchanged and now lift their fields into
+  extension-less <code>TagValue</code>s, so every use case builds its C tag/value array
+  through a single path.</li>
+<li><code>NbglAddressReview::set_tag_value_list</code> no longer ties the borrowed fields to
+  the builder's lifetime (it copies them), which only relaxes what callers may
+  pass.</li>
+<li><code>warning_details(...)</code> on <code>NbglAdvanceReview</code> and <code>NbglStreamingReview</code> is
+  unchanged and still raises exactly <code>W3cRiskDetected</code>; it now delegates to
+  <code>warning()</code>, so both use cases build the C warning through one path.</li>
+<li><code>QrCode</code> and <code>WarningDetails::QrCode</code> are compiled only for Stax, Flex and
+  Apex. <code>NBGL_QRCODE</code> is not defined for Nano, so the C bindings there have
+  neither <code>nbgl_layoutQRCode_t</code> nor the union member.</li>
+<li>updating ref to ledger_secure_sdk_sys to 1.16.6</li>
+</ul>
+<h3 id="fixed_1">Fixed</h3>
+<ul>
+<li><code>io_new</code>: <code>Comm::new</code> panics if a <code>Comm</code> was already created, and <code>Comm</code> no
+  longer implements <code>Drop</code>.</li>
+</ul>
+<h2 id="1390-2026-10-05">[1.39.0] - 2026-10-05</h2>
+<h3 id="changed_1">Changed</h3>
+<ul>
+<li><code>io_legacy</code>: new <code>nbgl::init_static_comm</code>, which creates the <code>Comm</code> instance
+  in a static <code>CommStorage</code> declared with <code>define_comm!</code> and registers it with
+  Nbgl: <code>define_comm!(COMM); let comm = init_static_comm(&amp;COMM);</code>. The expected
+  CLA is then set with <code>comm.expected_cla = Some(cla)</code>. <code>nbgl::init_comm</code> is
+  unchanged.</li>
+<li><code>io_legacy</code>: dropping the <code>Comm</code> instance registered with Nbgl unregisters it.</li>
+<li><code>build.rs</code>: when several workspace packages have a
+  <code>[package.metadata.ledger]</code> section, the build fails unless
+  <code>LEDGER_APP_PACKAGE</code> names the one being built. The app name, flags and icon
+  path must not contain control characters, and <code>flags</code> must be a hex string on
+  every device, Nano S Plus included.</li>
+<li>Nano X: the heap is now 2 KB when <code>mlkem</code> or <code>mldsa</code> is enabled. It is the
+  default there, and a larger <code>HEAP_SIZE</code> fails the build.</li>
+<li><code>NbglGenericReview</code>: only the last content can approve the review. The
+  action buttons of the contents before it no longer end the review.</li>
+<li><code>MultiFieldReview::show</code> returns <code>false</code> without displaying anything if a
+  field name or value holds a character the font has no glyph for (outside
+  0x20 to 0x7F).</li>
+<li><code>MessageValidator::ask</code> returns <code>false</code> without displaying anything if a page
+  holds a character the font has no glyph for (outside 0x20 to 0x7F) or is
+  wider than the screen.</li>
+<li><code>Layout::get_x</code>: text wider than the screen is placed at the left edge
+  instead of off-screen.</li>
+<li>Swap: the library call fails if a coin configuration, amount, derivation
+  path, address or extra ID given by Exchange does not fit in its buffer,
+  instead of passing on a truncated value.</li>
+<li><code>io_new</code>: <code>Comm&lt;N&gt;</code> holds a second <code>N</code>-byte buffer, used while a command is in
+  flight.</li>
+</ul>
+<h3 id="fixed_2">Fixed</h3>
+<ul>
+<li><code>CurvesId::generator</code> returns <code>InvalidParameter</code> if <code>gy</code> is shorter than
+  <code>gx</code>.</li>
+<li><code>Curve25519::scalar_mul</code> and <code>Curve448::scalar_mul</code> return
+  <code>InvalidParameter</code> if <code>u</code> is shorter than 32 and 56 bytes respectively.</li>
+<li><code>bip32_derive</code> returns <code>InvalidParameter</code> if the chain code buffer is shorter
+  than 32 bytes.</li>
+<li>NBGL reviews given more than 255 fields, contents or infos are rejected
+  without being displayed.</li>
+<li><code>io_new</code>: a command's data is kept unchanged while events are processed
+  during a screen.</li>
+<li><code>Ed25519Stream</code>: <code>sign_finalize</code> returns <code>InvalidParameterValue</code>, and wipes
+  the stream, if given a key other than the one passed to <code>init</code>.</li>
+<li><code>TagValueConfirm</code> keeps its own copy of the <code>TagValueList</code> given to <code>new</code>,
+  which no longer needs to outlive it.</li>
+<li>ECDSA and EdDSA <code>ECPublicKey::verify</code> return <code>false</code> if the given signature
+  length exceeds the signature slice.</li>
+<li><code>Ed25519Stream</code> computes the signature nonce point with the randomized scalar
+  multiplication, as the C SDK EdDSA signer does.</li>
+</ul>
+<h2 id="1380-2026-09-29">[1.38.0] - 2026-09-29</h2>
+<h3 id="changed_2">Changed</h3>
+<ul>
+<li><code>io_new</code>: <code>NbglStreamingReview::start</code>, <code>next</code>, <code>continue_review</code> and
+  <code>finish</code> now take <code>&amp;mut Comm</code> as their first argument, like every other
+  blocking NBGL widget. Data obtained from a <code>Command</code> can no longer be borrowed
+  across these calls: copy what is needed first. This is a breaking change for
+  <code>io_new</code> users.</li>
+<li><code>Ed25519Stream</code>: the <code>big_r</code> and <code>signature</code> fields are no longer public. The
+  signature is read with the new <code>signature()</code> method once both message passes
+  are complete.</li>
+</ul>
+<h3 id="fixed_3">Fixed</h3>
+<ul>
+<li><code>io_legacy</code>: APDUs received while a command is in flight are now handled as
+  in <code>io_new</code>: BOLOS GET_VERSION is answered inline, anything else is answered
+  <code>CmdNotAccepted</code>, and the command in flight is left as is.</li>
+<li><code>io_legacy</code>, <code>io_new</code>: while a command is in flight, GET_VERSION is the only
+  BOLOS APDU answered; the others are answered <code>CmdNotAccepted</code>. They are still
+  handled as before when no command is in flight.</li>
+<li><code>Ed25519Stream</code>: both message passes must now carry the same message,
+  otherwise <code>sign_finalize</code> returns an error. Calls are checked against an
+  explicit signing phase (no update or finalize before <code>init</code> or after
+  completion), <code>init</code> resets all state, and intermediate state is cleared on
+  failure and on drop.</li>
+</ul>
+<h2 id="1371-2026-09-29">[1.37.1] - 2026-09-29</h2>
+<h3 id="fixed_4">Fixed</h3>
+<ul>
+<li><code>ìo_new</code>: reject any incoming APDU when device is locked</li>
+</ul>
+<h2 id="1370-2026-08-24">[1.37.0] - 2026-08-24</h2>
+<h3 id="added_2">Added</h3>
+<ul>
+<li><code>StatusWords::CmdNotAccepted</code> (0x6901). An APDU received while a previous
+  command is still being processed is now answered with this status word instead
+  of being queued or silently dropped. Note that adding a variant to the public
+  <code>StatusWords</code> enum breaks downstream exhaustive <code>match</code> expressions over it.</li>
+</ul>
+<h3 id="fixed_5">Fixed</h3>
+<ul>
+<li><code>io_new</code>: BOLOS internal APDUs (CLA 0xB0) arriving while an NBGL screen is
+  displayed are handled inline again instead of being answered
+  <code>CmdNotAccepted</code>. That handling was gated behind the <code>stack_usage</code> feature, so
+  default builds rejected OS level requests that <code>next_command</code> answers.</li>
+<li><code>io_new</code>: a double APDU is now answered on the polling iteration that detects
+  it. It used to be answered on the next one, so a screen completing in between
+  discarded it with no response at all, leaving the host waiting.</li>
+<li><code>io_new</code>: a malformed APDU received while a screen is displayed is answered
+  <code>BadLen</code> instead of being ignored, matching <code>next_command</code> and <code>io_legacy</code>.</li>
+<li><code>io_new</code>: rejecting an APDU no longer leaves <code>apdu_type</code> overwritten with the
+  rejected APDU's transport, which made the in-flight command reply on the
+  wrong channel.</li>
+</ul>
+<h3 id="deprecated">Deprecated</h3>
+<ul>
+<li><code>NbglHomeAndSettings::show()</code> is now marked with the <code>#[deprecated]</code> attribute,
+  matching what its documentation already stated. Use <code>show_and_return()</code>
+  instead, which does not force a home screen refresh for every received APDU.</li>
+</ul>
+<h2 id="1362-2026-08-18">[1.36.2] - 2026-08-18</h2>
+<h3 id="changed_3">Changed</h3>
+<ul>
+<li>updating ref to ledger_secure_sdk_sys to 1.16.4 (stack protector support,
+  <code>.init_array</code> removed from final link)</li>
+</ul>
+<h2 id="1361-2026-07-02">[1.36.1] - 2026-07-02</h2>
+<h3 id="changed_4">Changed</h3>
+<ul>
+<li>updating ref to ledger_secure_sdk_sys to 1.16.3</li>
+</ul>
+<h2 id="1360-2026-07-02">[1.36.0] - 2026-07-02</h2>
+<h3 id="added_3">Added</h3>
+<ul>
+<li>Build variants: up to 10 per app via the numbered <code>variant_0</code> … <code>variant_9</code>
+  cargo features. The matching <code>[package.metadata.ledger.variants.&lt;N&gt;]</code> table is
+  overlaid on the base <code>[package.metadata.ledger]</code> metadata at build time,
+  letting one source tree produce variant apps (e.g. testnet) that differ only in
+  name, icon, or derivation path. An app forwards a human-named feature to a slot
+  (e.g. <code>variant_testnet = ["ledger_device_sdk/variant_0"]</code>) and selects it with
+  <code>--features variant_testnet</code>. Resolution is fail-closed: a missing selected
+  variant table aborts the build rather than falling back to the base values, and
+  enabling more than one <code>variant_&lt;N&gt;</code> feature is a hard error.</li>
+</ul>
+<h2 id="1353-2026-06-11">[1.35.3] - 2026-06-11</h2>
+<h3 id="changed_5">Changed</h3>
+<ul>
+<li>Fix app_flags stored in ELF section</li>
+</ul>
+<h2 id="1352-2026-06-04">[1.35.2] - 2026-06-04</h2>
+<h3 id="changed_6">Changed</h3>
+<ul>
+<li>Silence warning and remove useless cfg_version unstable feature</li>
+</ul>
+<h2 id="1351-2026-04-30">[1.35.1] - 2026-04-30</h2>
+<h3 id="changed_7">Changed</h3>
+<div class="highlight"><pre><span></span><code>- Fix clippy warnings
+- Embed icon in install_params
+</code></pre></div>
+<h2 id="1350-2026-04-24">[1.35.0] - 2026-04-24</h2>
+<h3 id="changed_8">Changed</h3>
+<div class="highlight"><pre><span></span><code>- Migrate from 2021 to 2024 edition
+- Manage BOLOS stack consumption APDUs
+- Adds ZIP32 (Zcash) derivation support by extending the C-SDK bindings
+  and restructuring ECC layer to include new curve families and supporting
+  math/BN helpers
+- Fixes Speculos test hangs by ensuring BOLOS APDUs are properly handled
+</code></pre></div>
+<h2 id="1340-2026-03-11">[1.34.0] - 2026-03-11</h2>
+<h3 id="changed_9">Changed</h3>
+<div class="highlight"><pre><span></span><code>- Integrates io_new&#39;s version of the Comm object with Nbgl,
+  and also with the new libcall module.
+- Ports all SDK examples from the legacy io module (io_legacy) to
+  the new io_new module.
+</code></pre></div>
+<h2 id="1331-2026-03-03">[1.33.1] - 2026-03-03</h2>
+<h3 id="changed_10">Changed</h3>
+<div class="highlight"><pre><span></span><code>- Fix unused variable warning in no debug mode (log module)
+</code></pre></div>
+<h2 id="1330-2026-02-24">[1.33.0] - 2026-02-24</h2>
+<h3 id="changed_11">Changed</h3>
+<div class="highlight"><pre><span></span><code>- Enable NBGL use case Generic Review for Nano devices
+</code></pre></div>
+<h2 id="1321-2026-02-19">[1.32.1] - 2026-02-19</h2>
+<h3 id="changed_12">Changed</h3>
+<div class="highlight"><pre><span></span><code>- Reverted: bolos_apdu: do not use os_registry_get_current_app_tag
+- Remove deprecated support of app subtasks
+</code></pre></div>
+<h2 id="1320-2026-02-04">[1.32.0] - 2026-02-04</h2>
+<h3 id="added_4">Added</h3>
+<div class="highlight"><pre><span></span><code>- log module
+</code></pre></div>
+<h3 id="changed_13">Changed</h3>
+<div class="highlight"><pre><span></span><code>- bolos_apdu: do not use os_registry_get_current_app_tag
+</code></pre></div>
+<h2 id="1310-2026-01-15">[1.31.0] - 2026-01-15</h2>
+<h3 id="changed_14">Changed</h3>
+<div class="highlight"><pre><span></span><code>- Manage install parameters and app flags the same way a C apps
+- Fix cargo audit
+- Improve Swap doc
+- Add Genereic Swap error codes
+</code></pre></div>
+<h2 id="1300-2026-01-05">[1.30.0] - 2026-01-05</h2>
+<h3 id="changed_15">Changed</h3>
+<div class="highlight"><pre><span></span><code>- update nightly toolchain version
+</code></pre></div>
+<h2 id="1291-2025-11-28">[1.29.1] - 2025-11-28</h2>
+<h3 id="changed_16">Changed</h3>
+<div class="highlight"><pre><span></span><code>- Bump ledger_secure_sdk_sys to 1.12.1
+</code></pre></div>
+<h2 id="1290-2025-11-19">[1.29.0] - 2025-11-19</h2>
+<h3 id="changed_17">Changed</h3>
+<div class="highlight"><pre><span></span><code>- Rust SDK as a single crate: ledger_device_sdk: include_gif is included as a
+  module and ledger_secure_sdk_sys can be accessed by activating the sys feature.
+</code></pre></div>
+<h2 id="1280-2025-11-04">[1.28.0] - 2025-11-04</h2>
+<h3 id="changed_18">Changed</h3>
+<div class="highlight"><pre><span></span><code>- Added Ledger PKI and TLV parsers (Dynamic Token, Trusted Name, Generic) support
+- Add ADDRESS_EXTRA_ID_BUF_SIZE support (swap)
+</code></pre></div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["navigation.indexes", "navigation.expand"], "search": "../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
